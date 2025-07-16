@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de origen\viejo">
+      <UniqueIdentifier>{4f2745ad-6af4-4e95-acb1-7e21fe77f92a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\mio">
+      <UniqueIdentifier>{68fcf5e4-a711-4f79-9259-f4fa7a104e7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\P_int">
+      <UniqueIdentifier>{cb252280-27e4-4597-8b74-917addf197bb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="driver.cpp">
+      <Filter>Archivos de origen\viejo</Filter>
+    </ClCompile>
+    <ClCompile Include="memo.cpp">
+      <Filter>Archivos de origen\mio</Filter>
+    </ClCompile>
+    <ClCompile Include="mem.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="cpu.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="process.cpp">
+      <Filter>Archivos de origen\mio</Filter>
+    </ClCompile>
+    <ClCompile Include="main_sc.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="neurona.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="IO.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="driver.h">
+      <Filter>Archivos de origen\viejo</Filter>
+    </ClInclude>
+    <ClInclude Include="or_gate.h">
+      <Filter>Archivos de origen\viejo</Filter>
+    </ClInclude>
+    <ClInclude Include="memo.h">
+      <Filter>Archivos de origen\mio</Filter>
+    </ClInclude>
+    <ClInclude Include="monitor.h">
+      <Filter>Archivos de origen\mio</Filter>
+    </ClInclude>
+    <ClInclude Include="Testb.h">
+      <Filter>Archivos de origen\mio</Filter>
+    </ClInclude>
+    <ClInclude Include="cpu.h">
+      <Filter>Archivos de origen</Filter>
+    </ClInclude>
+    <ClInclude Include="mem.h">
+      <Filter>Archivos de origen</Filter>
+    </ClInclude>
+    <ClInclude Include="process.h">
+      <Filter>Archivos de origen\mio</Filter>
+    </ClInclude>
+    <ClInclude Include="neurona.h">
+      <Filter>Archivos de origen</Filter>
+    </ClInclude>
+    <ClInclude Include="IO.h">
+      <Filter>Archivos de origen</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="circle.txt">
+      <Filter>Archivos de recursos</Filter>
+    </Text>
+    <Text Include="square.txt">
+      <Filter>Archivos de recursos</Filter>
+    </Text>
+    <Text Include="triangle.txt">
+      <Filter>Archivos de recursos</Filter>
+    </Text>
+    <Text Include="pesos.txt">
+      <Filter>Archivos de recursos</Filter>
+    </Text>
+    <Text Include="bad.txt">
+      <Filter>Archivos de recursos</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
